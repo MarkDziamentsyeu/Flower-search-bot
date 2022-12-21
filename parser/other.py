@@ -8,11 +8,7 @@ user = fake_useragent.UserAgent().random
 
 header = {'user-agent': user}
 
-
-
-
     
-
 def collect_data_other_1():
     '''parse about other bouquets from buketti.by '''
     
@@ -54,11 +50,6 @@ def collect_data_other_1():
     
         
     return data
-
-
-
-
-
 
 
 def main():
